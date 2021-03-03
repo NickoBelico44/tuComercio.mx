@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>tuComercio.mx</title>
+  <link rel="shortcut icon" href="/images/fav.ico">
+	<link rel="stylesheet" href="/css/estilos.css">
+</head>
+<body>
+	<div id="header">
+		<h1>
+			<ul>
+				<li><a href="index.html">Inicio</a></li>
+				<li><a href="#">Registrate</a></li>
+				<li><a href="Materia.html">Materia</a></li>
+			</ul>
+		</h1>
+	</div>
+	<header>
+      <div class="container">
+        <img src="/images/fndHeader.jpg" height="400">
+        <div class="center">
+          <img src="/images/logo.png" height="400">
+        </div>
+      </div>
+    </header><br><br>
+
+	<section class="form-register">
+    <h4>Ingresa tus datos</h4>
+		<h3>En unos minutos nos contactaremos contigo</h3>
+		<form action="registro.php" method="get">
+  		<input class="controls" type="text" name="nombre" id="nombre" placeholder="Nombre del negocio">
+    	<input class="controls" type="text" name="contacto" id="contacto" placeholder="Contacto">
+    	<input class="controls" type="email" name="correo" id="correo" placeholder="Correo">
+			<textarea class="controls" type="text" name="descripcion" id="descripcion" placeholder="Describa su negocio"></textarea>
+			<input class="botons" type="submit" value="Registrar" onclick="myFunction()">
+		</form>
+	</section>
+	<script>
+	function myFunction() {
+	  alert("¡Usuario Registrado!");
+	}
+	</script>
+
+</body><br><br><br><br>
+<footer><br>
+	Derechos Reservados | Jesus Alberto Lopez Corona &copy <br><br>
+</footer>
+</html>
